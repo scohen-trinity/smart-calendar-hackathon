@@ -16,6 +16,7 @@ app.get("/", (req, res) => {
 })
 
 app.get("/api/user", (req, res) => {
+    console.log('it is working');
     console.log(users)
     res.json(users);
 })
