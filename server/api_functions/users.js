@@ -231,4 +231,13 @@ const users = [
     }
   ]
 
+  // function getPassword(username: string) {
+  //   // make a call to the database with the username
+  //   query = `SELECT * FROM users WHERE userName = username`;
+  //   password = query.password;
+  //   return password;
+  // }
+
+  // [username: Praneet, password: sillypassword, accountAge: ]
+
 export default users;

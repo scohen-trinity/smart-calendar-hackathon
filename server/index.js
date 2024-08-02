@@ -1,6 +1,6 @@
 import express from "express";
 import cors from "cors"
-import users from "./users.js";
+import users from "./api_functions/users.js";
 
 const app = express()
 
@@ -17,6 +17,8 @@ app.get("/", (req, res) => {
 
 app.get("/api/user", (req, res) => {
     console.log(users)
+    // loggedin = users.getPassword(req.username) === req.password
+    // return res.json(loggedin)
     res.json(users);
 })
 
