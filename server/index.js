@@ -12,6 +12,7 @@ app.use(cors({
 }));
 
 app.get("/", (req, res) => {
+    console.log('why no work');
     res.send("Jarvis, is this thing on?");
 })
 
